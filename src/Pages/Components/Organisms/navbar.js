@@ -14,7 +14,6 @@ const mapStateToProps = (state) => {
 
 const Navbar = (props) => {
   const { text, modifiers } = props;
-  console.log(props);
   const loginIcon = <FontAwesomeIcon icon={faSignInAlt} />;
   const navaBarClass = `navbar has-shadow ${
     modifiers === undefined ? "" : modifiers

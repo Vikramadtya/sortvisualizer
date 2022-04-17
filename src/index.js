@@ -6,7 +6,7 @@ import { createStore } from "redux";
 import { Provider } from "react-redux";
 import "bulma/css/bulma.min.css";
 
-import rootReducer from "./Utility/Reducer/rootReducer";
+import rootReducer from "./Reducer/rootReducer";
 
 const store = createStore(rootReducer);
 
